@@ -1,0 +1,63 @@
+.services-img {
+  width: 100%;
+}
+
+.services-header {
+  color: rgb(21, 21, 21);
+  padding-left: 15px;
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 1.9px;
+}
+
+.services-container {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 9px 9px 17px 0px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.services-container:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+}
+
+.services-info {
+  padding-left: 15px;
+  padding-right: 10px;
+  color: #666;
+}
+
+/* Add hover styles */
+.services-container:hover {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #131313;
+}
+
+.services-container:hover .services-header,
+.services-container:hover .services-info {
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.services-container:active {
+  transition: all 0.3s ease;
+  background-color: #6a0000;
+}
+
+@media only screen and (max-width: 1402px) {
+  .services-header {
+    font-size: 1.7rem;
+  }
+  .services-container:hover {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .services-header {
+    font-size: 2.2rem;
+  }
+}

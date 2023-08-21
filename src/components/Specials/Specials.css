@@ -1,0 +1,21 @@
+.specials-container {
+  margin-bottom: 210px;
+}
+
+.specials-upper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: -10px;
+}
+
+.specials-header {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.specials-upper-container.float-up {
+  transform: translateY(-90px);
+  transition: transform 1s ease;
+}

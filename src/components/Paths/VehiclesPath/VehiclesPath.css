@@ -1,0 +1,207 @@
+.services-path .link {
+  color: rgb(27, 27, 27);
+}
+
+.vehicles-path-header {
+  font-size: 6.3rem;
+  font-weight: 700;
+}
+
+.vehicle-path-header-left-banner {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  z-index: -2;
+  background-color: #d6131c;
+  top: 55px;
+  width: 70%;
+  height: 230px;
+  position: absolute;
+  left: -650px;
+  transform: skew(-30deg);
+  overflow: hidden;
+}
+
+.vehicles-path-specials-container {
+  margin-top: 300px;
+  margin-bottom: -150px;
+}
+
+.vehicle-path-header-left-banner.show {
+  opacity: 0.8;
+}
+
+.vehicles-type-banner-bg {
+  opacity: 0;
+  top: 25px;
+  width: 70%;
+}
+
+.vehicles-type-banner-bg.show {
+  opacity: 0.1;
+}
+
+.vehicles-path-header-container {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.vehicles-path-p-container {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.vehicles-path-header-container.show,
+.vehicles-path-p-container.show {
+  opacity: 1;
+}
+
+.vehicles-path-p-container {
+  margin-top: 40px;
+  margin-bottom: 99px;
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.vehicle-path-header-1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: -7px;
+}
+
+.vehicle-path-header-2 {
+  font-size: 3.499rem;
+  font-weight: 700;
+  margin-bottom: -7px;
+}
+
+.vehicle-path-header-3 {
+  font-size: 3.64rem;
+  font-weight: 700;
+}
+
+.vehicles-path-p {
+  color: rgb(53, 53, 53);
+  padding: 35px 0px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 0.95rem;
+}
+
+@media only screen and (max-width: 990px) {
+  .vehicle-path-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -30px;
+    width: 120%;
+    height: 160px;
+    position: absolute;
+    left: -230px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+  .vehicles-type-banner-bg {
+    opacity: 0.2;
+    width: 100%;
+  }
+  .vehicles-path-header-container {
+    align-items: center;
+  }
+  .vehicles-path-header-container .vehicles-path-header {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  .vehicle-path-header-1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-2 {
+    font-size: 2.81rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-3 {
+    font-size: 2.95rem;
+    font-weight: 700;
+  }
+  .vehicles-path-p {
+    color: rgb(53, 53, 53);
+    padding: 0px 0px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  .vehicles-path-p-container {
+    margin-top: 40px;
+    margin-bottom: 99px;
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .vehicles-path-specials-container {
+    margin-bottom: -10px;
+  }
+  .vehicle-path-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -30px;
+    width: 120%;
+    height: 140px;
+    position: absolute;
+    left: -110px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+
+  .vehicles-type-banner-bg {
+    opacity: 0.2;
+    width: 100%;
+  }
+  .vehicles-path-header-container {
+    margin-top: 100px;
+    margin-bottom: -20px;
+  }
+  .vehicles-path-header {
+    font-size: 4.3rem;
+    font-weight: 700;
+  }
+  .vehicle-path-header-1 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-2 {
+    font-size: 2.15rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-3 {
+    font-size: 2.24rem;
+    font-weight: 700;
+  }
+  .vehicles-path-p {
+    width: 340px;
+    margin: 0px auto;
+  }
+}

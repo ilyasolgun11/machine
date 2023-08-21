@@ -1,0 +1,215 @@
+.ap-path-container {
+  margin-top: 100px;
+}
+
+.ap-form {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: rgb(15, 15, 15);
+}
+
+.appointment-path-header {
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-left: -5px;
+}
+
+.ap-personal-header {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.ap-vehicle-header {
+  padding-top: 130px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.ap-item-style {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ap-name-label {
+  color: white;
+  font-size: 1.3rem;
+  padding-top: 75px;
+  width: 130%;
+}
+
+.ap-phone-label {
+  color: white;
+  font-size: 1.3rem;
+  width: 130%;
+}
+
+.ap-label-style {
+  color: white;
+}
+
+.ap-input-style {
+  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.ap-input-style,
+.ap-text-area {
+  resize: none;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid red;
+}
+
+.ap-input-style:hover,
+.ap-text-area:hover {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid red;
+}
+
+.ap-input-style:active,
+.ap-text-area:active {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid red;
+}
+
+.ap-input-style:focus,
+.ap-text-area:focus {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid red;
+}
+
+.ap-sent-info {
+  color: white;
+}
+
+.ap-select {
+  padding: 10px;
+  padding-left: 10px;
+  padding-top: 7px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.select-option {
+  color: black;
+}
+
+.ap-select {
+  color: white;
+  width: 100%;
+  background-color: transparent;
+  text-align: start;
+  border: none;
+  border-bottom: 2px solid red;
+  border-radius: 0px;
+}
+
+.ap-select:hover {
+  width: 100%;
+  background-color: transparent;
+  text-align: start;
+  border: none;
+  border-bottom: 2px solid red;
+  border-radius: 0px;
+}
+
+.ap-select:active {
+  width: 100%;
+  background-color: transparent;
+  text-align: start;
+  border: none;
+  border-bottom: 2px solid red;
+  border-radius: 0px;
+}
+
+.ap-select:focus {
+  width: 100%;
+  background-color: transparent;
+  text-align: start;
+  border: none;
+  border-bottom: 2px solid red;
+  border-radius: 0px;
+}
+
+.ap-dropdown-menu {
+  width: 100%;
+}
+
+.ap-send-style {
+  align-items: end;
+}
+
+.ap-send {
+  height: 80px;
+  margin-bottom: 1px;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  background-color: #fd000d;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1340px) {
+  .appointment-path-header {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: -5px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .appointment-path-header {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-left: -5px;
+  }
+  .ap-personal-header {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .ap-vehicle-header {
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .appointment-path-header {
+    font-size: 2.9rem;
+    font-weight: 700;
+    margin-left: -5px;
+  }
+  .ap-send {
+    width: 330px;
+    margin: 0px auto;
+    margin-top: 40px;
+  }
+  .ap-text-area {
+    width: 310px;
+    margin: 0px auto;
+  }
+}

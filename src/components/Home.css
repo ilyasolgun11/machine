@@ -1,0 +1,18 @@
+.home-style {
+  overflow-x: hidden;
+}
+
+.scroll-button {
+  display: none;
+}
+
+.scroll-button.show {
+  transition: all 2s ease-in-out;
+  opacity: 1;
+}
+
+.up-arrow {
+  position: absolute;
+  top: -23px;
+  right: 20px;
+}

@@ -1,0 +1,241 @@
+.contact-header-upper-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-header-1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+.contact-header-2 {
+  font-size: 3.46rem;
+  font-weight: 700;
+}
+
+.contact-path-number-main-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 1px solid rgb(57, 57, 57);
+}
+
+.contact-path-number-container {
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+}
+
+.contact-path-number-icon {
+  width: 23px;
+  height: 23px;
+  margin-top: 2px;
+  margin-right: 9px;
+}
+
+.contact-path-number {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.contact-path-address,
+.contact-path-hours {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+}
+
+.contact-path-address:nth-of-type(1),
+.contact-path-hours:nth-of-type(1) {
+  margin-bottom: 0px;
+  color: black;
+}
+
+.contact-path-appointment-btn {
+  background-color: rgb(23, 23, 23);
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  padding: 7px 19px;
+  margin-left: 20px;
+  width: 95%;
+  font-weight: 600;
+}
+
+.contact-path-appointment-btn:hover {
+  background-color: rgb(220, 20, 20);
+  transition: all 0.2s ease;
+}
+
+.contact-form-container {
+  background-color: rgb(13, 13, 13);
+  padding: 150px 0px;
+  margin-top: 90px;
+}
+
+.contact-form-header-1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: -24px;
+}
+
+.contact-form-header-2 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: -12px;
+  margin-bottom: 70px;
+}
+
+.contact-input-style {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 30px 0px 10px 0px;
+  outline: none;
+}
+
+.contact-textarea {
+  resize: none;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  height: 40px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.contact-send {
+  margin-top: 40px;
+  width: 31.5%;
+  border: none;
+  background-color: white;
+  color: rgb(17, 17, 17);
+  padding: 12px;
+  font-weight: 600;
+}
+
+.contact-send:hover {
+  background-color: rgb(223, 19, 19);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.contact-arrow {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-message-pop-up {
+  color: white;
+  margin-left: -5px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 990px) {
+  .contact-message-pop-up {
+    color: white;
+    margin-left: -5px;
+    margin-bottom: 5px;
+  }
+  .contact-path-number-container {
+    display: flex;
+    justify-content: start;
+    padding-left: 0px;
+  }
+  .contact-path-address,
+  .contact-path-hours {
+    padding-left: 0px;
+    font-size: 1rem;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+  }
+  .contact-path-number-main-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: none;
+    text-align: center;
+  }
+  .contact-header-upper-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-path-number-container {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    justify-content: center;
+    border-top: 1px solid rgb(32, 32, 32);
+    padding-top: 40px;
+  }
+  .contact-header-1 {
+    margin-top: 60px;
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: -15px;
+    text-align: center;
+  }
+
+  .contact-header-2 {
+    text-align: center;
+    font-size: 2.94rem;
+    font-weight: 700;
+  }
+  .contact-form-header-1 {
+    font-size: 3.7rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: -20px;
+    text-align: center;
+  }
+
+  .contact-form-header-2 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .contact-path-appointment-btn {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .contact-header-1 {
+    font-size: 3.1rem;
+    font-weight: 700;
+    margin-bottom: -15px;
+  }
+
+  .contact-header-2 {
+    font-size: 2.68rem;
+    font-weight: 700;
+  }
+  .contact-textarea {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 40px;
+    margin-top: 50px;
+    width: 94%;
+    margin-left: 13px;
+  }
+  .contact-send {
+    width: 94%;
+    margin-left: 13px;
+  }
+}

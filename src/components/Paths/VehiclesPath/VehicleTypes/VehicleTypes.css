@@ -1,0 +1,192 @@
+.vehicle-types-container {
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 190px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to top right, rgb(231, 231, 231), transparent);
+  margin-bottom: 10px;
+  padding-left: 55px;
+}
+
+.vehicle-types-container:hover .vehicle-types-car-brand-img {
+  right: -100px;
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+.vehicle-types-container:hover .vehicle-types-car-p {
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.vehicle-types-container:hover .vehicle-types-car-brand {
+  font-size: 3rem;
+  transition: all 0.5s ease;
+  color: rgb(18, 18, 18);
+}
+
+.vehicle-types-container:active {
+  background: linear-gradient(to top right, rgb(225, 225, 225), transparent);
+  transition: all 0.2s ease;
+}
+
+.vehicle-types-container:active .vehicle-types-car-brand-img {
+  right: -200px;
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+.vehicle-types-container:active .vehicle-types-car-p {
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.vehicle-types-car-brand-img {
+  position: absolute;
+  right: -200px;
+  opacity: 0.2;
+  top: -50px;
+}
+
+.vehicle-types-car-brand {
+  position: relative;
+  z-index: 5;
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.vehicle-types-car-p {
+  font-size: 0.9rem;
+  color: rgb(51, 51, 51);
+}
+
+@media only screen and (max-width: 1220px) {
+  .vehicle-path-header-1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-2 {
+    font-size: 2.81rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-3 {
+    font-size: 2.95rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .vehicle-path-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -30px;
+    width: 120%;
+    height: 160px;
+    position: absolute;
+    left: -230px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+  .vehicles-type-banner-bg {
+    opacity: 0.2;
+    width: 100%;
+  }
+  .vehicles-path-header-container {
+    align-items: center;
+  }
+  .vehicles-path-header-container .vehicles-path-header {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  .vehicle-path-header-1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-2 {
+    font-size: 2.81rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-3 {
+    font-size: 2.95rem;
+    font-weight: 700;
+  }
+  .vehicles-path-p {
+    color: rgb(53, 53, 53);
+    padding: 0px 0px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  .vehicles-path-p-container {
+    margin-top: 40px;
+    margin-bottom: 99px;
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .vehicle-path-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -30px;
+    width: 120%;
+    height: 140px;
+    position: absolute;
+    left: -120px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+  .vehicle-types-container {
+    width: 410px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(221, 221, 221), transparent);
+  }
+  .vehicle-types-car-brand-img {
+    position: absolute;
+    right: -250px;
+    opacity: 0.2;
+    top: -50px;
+  }
+  .vehicle-path-header-1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-2 {
+    font-size: 2.23rem;
+    font-weight: 700;
+    margin-bottom: -7px;
+  }
+
+  .vehicle-path-header-3 {
+    font-size: 2.33rem;
+    font-weight: 700;
+  }
+  .vehicle-types-car-p {
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+  }
+}

@@ -1,0 +1,20 @@
+.bmw-path-header {
+  font-size: 9rem;
+  margin: 0px;
+  margin-left: -5px;
+}
+
+@media only screen and (max-width: 1240px) {
+  .bmw-path-header {
+    font-size: 7rem;
+    margin: 0px;
+    margin-left: -5px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .bmw-path-header {
+    font-size: 6rem;
+    margin: 0px;
+    margin-left: -5px;
+  }
+}

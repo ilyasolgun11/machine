@@ -1,0 +1,123 @@
+.special-item__container {
+  position: relative;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.special-item__container:hover {
+  transform: scale(1.07);
+  transition: all 0.3s ease;
+  background-color: rgb(17, 17, 17);
+}
+
+.special-item__container:active {
+  transform: scale(1.07);
+  transition: all 0.3s ease;
+  background-color: rgb(29, 0, 0);
+}
+
+.special-item-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.special-item-date {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(176, 176, 176);
+  top: 60px;
+  left: 50px;
+  position: absolute;
+}
+
+.special-item-name-1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  color: white;
+}
+
+.special-item-name-2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  position: absolute;
+  top: 117px;
+  left: 50px;
+  color: white;
+}
+
+.special-item-price {
+  font-size: 2.3rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  color: white;
+}
+
+@media only screen and (max-width: 1202px) {
+  .special-item-name-1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    color: white;
+  }
+
+  .special-item-name-2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: absolute;
+    top: 117px;
+    left: 50px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .special-item__container {
+    margin-bottom: 17px;
+  }
+  .special-item-date {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(176, 176, 176);
+    top: 60px;
+    left: 30px;
+    position: absolute;
+  }
+  .special-item-name-1 {
+    font-size: 1.6rem;
+    top: 90px;
+    left: 30px;
+  }
+  .special-item-name-2 {
+    font-size: 1.7rem;
+    top: 117px;
+    left: 30px;
+  }
+  .special-item-price {
+    font-size: 2.3rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+  }
+  .special-item__container:hover {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .special-item__container {
+    width: 390px;
+    margin: 0px auto;
+    margin-bottom: 17px;
+  }
+}

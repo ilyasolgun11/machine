@@ -1,0 +1,365 @@
+.service-type-importance-container {
+  margin-top: 90px;
+}
+
+.service-type-importance-header-1 {
+  letter-spacing: 1.3px;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: -11px;
+}
+
+.services-type-header-left-banner {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  z-index: -2;
+  background-color: #d6131c;
+  top: 55px;
+  width: 70%;
+  height: 230px;
+  position: absolute;
+  left: -650px;
+  transform: skew(-30deg);
+  overflow: hidden;
+}
+
+.services-type-header-left-banner.show {
+  opacity: 1;
+}
+
+.service-type-banner-bg {
+  opacity: 0.1;
+  object-fit: cover;
+  width: 72%;
+  height: 100%;
+  left: 325px;
+  position: relative;
+  transform: skew(30deg);
+  z-index: 3;
+}
+
+.service-type-importance-header-2 {
+  letter-spacing: 1.3px;
+  font-size: 2.9rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.service-type-review {
+  padding-top: 230px;
+}
+
+.service-type-importance-p-1,
+.service-type-importance-p-2 {
+  color: rgb(59, 59, 59);
+}
+
+.services-type-p-special {
+  color: #df000b;
+  font-weight: 600;
+}
+
+.service-type-importance-main-container {
+  padding-bottom: 70px;
+}
+
+.services-type-free-ap {
+  margin-top: 190px;
+}
+
+.team-result-pricing-main-container,
+.service-type-importance-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-type-importance-container,
+.team-result-pricing-container {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.service-type-importance-container.show,
+.team-result-pricing-container.show {
+  opacity: 1;
+}
+
+.pricing-container {
+  overflow: hidden;
+  position: relative;
+  border-radius: 6px 6px 0px 0px;
+  background-color: #d6131c;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 180px;
+  padding: 35px 30px 30px 30px;
+  margin-bottom: 10px;
+}
+
+.service-type-euro-symbol {
+  opacity: 0.1;
+  position: absolute;
+  right: -30px;
+  bottom: -20px;
+  width: 190px;
+  height: 190px;
+  transform: rotate(10deg);
+  z-index: 0;
+}
+
+.pricing-header,
+.result-header,
+.great-header {
+  color: white;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.result-header,
+.great-header {
+  font-size: 1.4rem;
+}
+
+.pricing-p,
+.result-p,
+.great-p {
+  color: white;
+  position: relative;
+  z-index: 1;
+  padding-left: 10px;
+}
+
+.team-result-container {
+  display: flex;
+  justify-content: center;
+}
+
+.result-container,
+.great-team-container {
+  overflow: hidden;
+  position: relative;
+  background-color: #d6131c;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 240px;
+  padding: 30px;
+  color: #940007;
+}
+
+.service-type-car-symbol,
+.service-type-team-symbol {
+  position: absolute;
+  opacity: 0.1;
+  right: -60px;
+  bottom: -20px;
+  width: 190px;
+  height: 190px;
+  transform: rotate(10deg);
+  z-index: 0;
+}
+
+.result-container {
+  border-bottom-left-radius: 6px;
+  margin-right: 5px;
+}
+
+.great-team-container {
+  border-bottom-right-radius: 6px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1202px) {
+  .service-type-importance-p-1,
+  .service-type-importance-p-2 {
+    font-size: 0.95rem;
+  }
+  .service-type-importance-header-1 {
+    font-size: 2.2rem;
+  }
+
+  .service-type-importance-header-2 {
+    font-size: 2.4rem;
+  }
+  .result-header,
+  .great-header {
+    font-size: 1rem;
+  }
+  .pricing-p {
+    font-size: 0.9rem;
+  }
+  .result-p,
+  .great-p {
+    font-size: 0.82rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .services-type-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -25px;
+    width: 120%;
+    height: 170px;
+    position: absolute;
+    left: -250px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+  .services-float-container {
+    margin-top: 230px;
+    margin-bottom: -100px;
+  }
+  .service-type-importance-p-1,
+  .service-type-importance-p-2 {
+    font-size: 1rem;
+  }
+  .service-type-importance-header-1 {
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .service-type-importance-header-2 {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+  .result-header,
+  .great-header {
+    font-size: 1.4rem;
+  }
+  .pricing-p {
+    font-size: 1rem;
+  }
+  .result-p,
+  .great-p {
+    font-size: 0.95rem;
+  }
+  .services-path-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -30px;
+    width: 120%;
+    height: 200px;
+    position: absolute;
+    left: -250px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+
+  .service-type-banner-bg {
+    opacity: 0.2;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    left: 60px;
+    position: relative;
+    transform: skew(30deg);
+    z-index: 3;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .services-type-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -25px;
+    width: 120%;
+    height: 150px;
+    position: absolute;
+    left: -130px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+  .services-float-container {
+    margin-top: 190px;
+    margin-bottom: 0px;
+  }
+  .services-path-header-left-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: -2;
+    background-color: #d6131c;
+    top: -30px;
+    width: 120%;
+    height: 150px;
+    position: absolute;
+    left: -130px;
+    transform: skew(-30deg);
+    overflow: hidden;
+  }
+
+  .service-type-banner-bg {
+    opacity: 0.2;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    left: 60px;
+    position: relative;
+    transform: skew(30deg);
+    z-index: 3;
+  }
+  .service-type-review {
+    padding-top: 30px;
+  }
+  .pricing-container {
+    width: 390px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 25px 10px 20px 10px;
+  }
+  .team-result-container {
+    width: 390px;
+    margin: 0px auto;
+  }
+  .result-container,
+  .great-team-container {
+    height: 190px;
+    padding: 15px 10px 10px 10px;
+  }
+  .service-type-header {
+    font-size: 3.1rem;
+    margin-bottom: 0px;
+  }
+  .service-type-importance-p-1 {
+    padding-bottom: 20px;
+  }
+  .service-type-importance-p-1,
+  .service-type-importance-p-2 {
+    text-align: center;
+    width: 350px;
+    margin: 0px auto;
+    font-size: 0.95rem;
+  }
+  .service-type-importance-header-1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: -8px;
+  }
+
+  .service-type-importance-header-2 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+  .result-header,
+  .great-header {
+    font-size: 0.9rem;
+  }
+  .pricing-p {
+    font-size: 1rem;
+  }
+  .result-p,
+  .great-p {
+    font-size: 0.85rem;
+  }
+}

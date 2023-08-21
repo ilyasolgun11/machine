@@ -1,0 +1,233 @@
+.services-path {
+  overflow-x: hidden;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.services-path-container {
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.services-path-header-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-float-container {
+  transition: transform 1.4s ease;
+  transform: translateX(50%);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-path-header-left-banner {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  z-index: -2;
+  background-color: #d6131c;
+  top: 55px;
+  width: 70%;
+  height: 230px;
+  position: absolute;
+  left: -650px;
+  transform: skew(-30deg);
+  overflow: hidden;
+}
+
+.service-path-banner-bg {
+  opacity: 0;
+  object-fit: cover;
+  width: 120%;
+  height: 100%;
+  left: -35px;
+  position: relative;
+  transform: skew(30deg);
+  z-index: 3;
+}
+
+.services-path-header-left-banner.show {
+  opacity: 1;
+}
+
+.service-path-banner-bg.show {
+  opacity: 0.1;
+}
+
+.services-float-container.float-left {
+  transform: translateX(-20px);
+}
+
+.services-path-p {
+  color: #d6131c;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.services-path-header {
+  color: rgb(20, 20, 20);
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.services-path-help-1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: -9px;
+}
+
+.services-path-help-2 {
+  color: #d6131c;
+  font-size: 2.31rem;
+  font-weight: 600;
+}
+
+.services-path-help-p {
+  padding-top: 20px;
+  color: rgb(65, 65, 65);
+}
+
+.services-path-img {
+  border-radius: 6px;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+.services-path-img.show {
+  opacity: 1;
+}
+
+.services-path-img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.services-path-name {
+  color: rgb(24, 24, 24);
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.services-path-first-half {
+  margin-bottom: 70px;
+}
+
+.services-path-second-half {
+  margin-bottom: 210px;
+}
+
+.services-item-container {
+  border-radius: 6px;
+  position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+  .services-path-header-container {
+    margin-left: 40px;
+  }
+  .services-path-first-half,
+  .services-path-second-half {
+    margin-bottom: 0px;
+  }
+  .services-path-name {
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  .services-path-header {
+    color: rgb(20, 20, 20);
+    font-size: 4.6rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .services-path-container,
+  .col-lg-4 {
+    width: 410px;
+    margin: 0px auto;
+  }
+  .services-path-header-container {
+    margin-left: 40px;
+    margin-bottom: -50px;
+  }
+  .services-path-p {
+    color: #d6131c;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .services-path-header {
+    color: rgb(20, 20, 20);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 100px;
+  }
+  .review-left {
+    width: 390px;
+    margin: 0px auto;
+  }
+  .reviews-header-1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: -12px;
+  }
+
+  .reviews-header-2 {
+    font-size: 2.54rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .review-man-1 {
+    transition: transform 1.4s ease;
+    left: 0px;
+    background: linear-gradient(to top right, transparent 60%, #ffbfc2);
+    border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    top: 30px;
+    width: 200px;
+    transform: translateX(80%);
+  }
+
+  .review-man-2 {
+    transition: transform 1.4s ease;
+    right: 20px;
+    width: 200px;
+    right: -40px;
+    top: 50px;
+    background: linear-gradient(to top right, transparent 60%, #ffbfc2);
+    border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateX(40%);
+  }
+
+  .review-women {
+    transition: transform 1.4s ease;
+    width: 320px;
+    right: 10px;
+    bottom: -560px;
+    background: linear-gradient(to top right, transparent 60%, #ffbfc2);
+    border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateX(70%);
+  }
+}

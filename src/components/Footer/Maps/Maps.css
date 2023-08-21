@@ -1,0 +1,24 @@
+.map-container {
+  border-radius: 6px;
+  padding-bottom: 90px;
+}
+
+.maps-float-container {
+  padding-bottom: 70px;
+}
+
+@media only screen and (max-width: 992px) {
+  .maps-header {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .map-container {
+    width: 390px;
+    margin: 0px auto;
+  }
+  .maps-header {
+    font-size: 2.7rem;
+  }
+}

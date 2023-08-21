@@ -1,0 +1,50 @@
+.google-item-container,
+.yelp-item-container {
+  margin-bottom: 40px;
+}
+
+.review-path-google-btn,
+.review-path-yelp-btn {
+  border: none;
+  padding: 14px 29px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.review-path-google-btn:hover,
+.review-path-yelp-btn:hover {
+  transform: scale(1.07);
+  transition: all 0.2s ease;
+}
+
+.review-platform-button {
+  display: flex;
+  justify-content: center;
+  color: black;
+  border: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.review-platform-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.review-path-google-btn.active {
+  color: red;
+}
+
+.review-path-yelp-btn.active {
+  color: red;
+}
+
+@media only screen and (max-width: 490px) {
+  .review-platform-button {
+    margin-top: 120px;
+  }
+}

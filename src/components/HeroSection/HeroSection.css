@@ -1,0 +1,346 @@
+/* HeroSection.css */
+.hero-section__container {
+  padding-top: 500px;
+  padding-bottom: 500px;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.line {
+  z-index: -10;
+  position: fixed;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: rgba(201, 201, 201, 0.5);
+}
+
+.line.left {
+  left: 20.33%;
+}
+
+.line.middle {
+  left: 50%;
+}
+
+.line.right {
+  right: 20.33%;
+}
+
+.square {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  background-color: rgba(214, 19, 28, 0.8);
+  transform: translate(-50%, -50%);
+}
+
+.line.left .square {
+  top: 80%;
+  left: 1px;
+}
+
+.line.right .square {
+  top: 30%;
+  right: -9px;
+}
+
+.hero-left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hero-right {
+  position: relative;
+}
+
+.hero-right__bg {
+  z-index: -3;
+  width: 500%;
+  height: 250vh;
+  background: linear-gradient(to top, transparent, rgba(187, 187, 187, 0.6));
+  position: absolute;
+  transform: rotate(40deg);
+  overflow: hidden;
+}
+
+.hero-right__bg-2 {
+  right: -2200px;
+  z-index: -4;
+  width: 500%;
+  height: 250vh;
+  background: linear-gradient(to top, transparent, rgba(231, 231, 231, 0.6));
+  position: absolute;
+  transform: rotate(40deg);
+  overflow: hidden;
+}
+
+.banner-text__container {
+  display: flex;
+  align-items: center;
+}
+
+.banner-img {
+  width: 20px;
+  height: 20px;
+}
+
+.banner-text {
+  letter-spacing: 2px;
+  color: #d6131c;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: 20px;
+  font-size: 0.8rem;
+}
+
+.hero-header__1 {
+  color: #1a1a1a;
+  padding-top: 15px;
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: -25px;
+}
+
+.hero-header__2 {
+  color: #1a1a1a;
+  font-size: 5.98rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.services-btn__container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.services-btn {
+  border-radius: 3px;
+  letter-spacing: 1.9px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.services-btn:hover {
+  background-color: #ff212c;
+  transition: all 0.3s ease;
+}
+
+.services-btn:active {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.car-engine-img {
+  position: absolute;
+  top: -300px;
+  right: -220px;
+  width: 500px;
+  margin-top: 100px;
+}
+
+.car-brake-img {
+  z-index: -1;
+  position: absolute;
+  top: -210px;
+  right: 190px;
+  width: 300px;
+  margin-top: 300px;
+}
+
+.car-suspension-img {
+  position: absolute;
+  top: -70px;
+  right: -50px;
+  width: 330px;
+  margin-top: 300px;
+}
+
+.scroll-left-img {
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.hero-right-images__container {
+  animation: slideInFromRight 0.7s ease;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.hero-left {
+  animation: slideInFromLeft 0.9s ease;
+}
+
+@media only screen and (max-width: 1410px) {
+  .hero-header__1 {
+    font-size: 4.5rem;
+  }
+
+  .hero-header__2 {
+    font-size: 4.77rem;
+  }
+  .services-btn {
+    letter-spacing: 1.9px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1202px) {
+  .hero-right__bg-2 {
+    right: -2200px;
+    z-index: -4;
+    width: 500%;
+    height: 250vh;
+    background: transparent;
+    position: absolute;
+    transform: rotate(40deg);
+    overflow: hidden;
+  }
+  .hero-section__container {
+    padding-top: 390px;
+    padding-bottom: 500px;
+    height: 50vh;
+  }
+  .hero-header__1 {
+    font-size: 3.5rem;
+    margin-bottom: -17px;
+  }
+
+  .hero-header__2 {
+    font-size: 3.77rem;
+  }
+  .services-btn {
+    letter-spacing: 1.9px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .car-engine-img {
+    width: 400px;
+  }
+  .car-brake-img {
+    width: 250px;
+  }
+  .car-suspension-img {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 802px) {
+  .line.middle {
+    display: none;
+  }
+  .hero-section__container {
+    padding-top: 400px;
+    padding-bottom: 500px;
+    height: 50vh;
+  }
+  .hero-left {
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero-header__1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: -17px;
+  }
+
+  .hero-header__2 {
+    text-align: center;
+    font-size: 3.77rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .line.left .square {
+    top: 90%;
+    left: 1px;
+  }
+
+  .line.right .square {
+    top: 14%;
+    right: -9px;
+  }
+
+  .hero-section__container {
+    padding-top: 400px;
+    padding-bottom: 500px;
+    height: 50vh;
+  }
+  .hero-header__1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: -17px;
+  }
+  .hero-header__2 {
+    text-align: center;
+    font-size: 3.24rem;
+  }
+  .car-engine-img {
+    position: absolute;
+    top: -280px;
+    right: -100px;
+    width: 280px;
+    margin-top: 100px;
+  }
+  .car-brake-img {
+    z-index: -1;
+    position: absolute;
+    top: -370px;
+    right: 190px;
+    width: 230px;
+    margin-top: 300px;
+  }
+  .car-suspension-img {
+    position: absolute;
+    top: -220px;
+    right: 20px;
+    width: 200px;
+    margin-top: 300px;
+  }
+}

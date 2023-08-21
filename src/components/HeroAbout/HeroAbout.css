@@ -1,0 +1,243 @@
+.hero-about__container {
+  margin-top: -40px;
+  padding-bottom: 300px;
+}
+
+.hero-about-img__container {
+  position: relative;
+}
+
+.hero-about-mechanic__img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.hero-about-banner__container {
+  transition: transform 0.5s ease;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: -60px;
+  right: 75px;
+  position: absolute;
+  width: 80%;
+  height: 150px;
+  background-color: #d6131c;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.hero-about-right {
+  padding-top: 60px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hero-about-header__1 {
+  font-size: 4.7rem;
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+
+.hero-about-header__2 {
+  font-size: 2.98rem;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+
+.hero-about-header__3 {
+  font-style: italic;
+  color: #e31e28;
+  font-size: 3.41rem;
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+
+.hero-about-header__4 {
+  font-size: 5.41rem;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.hero-about-p {
+  padding-top: 20px;
+  color: rgb(63, 63, 63);
+}
+
+.hero-about-btn {
+  padding-left: 0px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: rgb(28, 28, 28);
+  position: relative;
+}
+
+.hero-about-btn::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: red;
+  transition: width 0.3s;
+}
+
+.hero-about-btn:hover::before {
+  width: 100%;
+}
+
+.hero-about-btn:hover::after {
+  width: 100%;
+}
+
+.bi-arrow-right {
+  width: 30px;
+  height: 30px;
+  padding-left: 6px;
+  padding-bottom: 4px;
+}
+
+@media only screen and (max-width: 1410px) {
+  .hero-about-header__1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: -20px;
+  }
+
+  .hero-about-header__2 {
+    font-size: 2.53rem;
+    font-weight: 700;
+    margin-bottom: -10px;
+  }
+
+  .hero-about-header__3 {
+    color: #e31e28;
+    font-size: 2.88rem;
+    font-weight: 700;
+    margin-bottom: -20px;
+  }
+
+  .hero-about-header__4 {
+    font-size: 4.59rem;
+    font-weight: 700;
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 1202px) {
+  .hero-about__container {
+    margin-top: 50px;
+    padding-bottom: 300px;
+  }
+  .hero-about-banner__container {
+    transition: transform 0.5s ease;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -60px;
+    right: 50px;
+    position: absolute;
+    width: 80%;
+    height: 130px;
+    background-color: #d6131c;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  .certified-img:nth-of-type(1) {
+    width: 70px;
+  }
+  .certified-img:nth-of-type(2) {
+    width: 50px;
+  }
+  .certified-img:nth-of-type(3) {
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-about__container {
+    margin-top: 50px;
+    padding-bottom: 200px;
+  }
+  .hero-about-right {
+    padding-top: 120px;
+  }
+  .hero-about-right {
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero-about-p {
+    width: 400px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 802px) {
+  .hero-about-banner__container {
+    transition: transform 0.5s ease;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -70px;
+    right: 65px;
+    position: absolute;
+    width: 80%;
+    height: 150px;
+    background-color: #d6131c;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .hero-about-right {
+    padding-top: 160px;
+  }
+  .hero-about-mechanic__img {
+    width: 95%;
+    margin: 0px auto;
+    margin-left: 10px;
+  }
+  .hero-about-banner__container {
+    transition: transform 0.5s ease;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -50px;
+    right: 35px;
+    position: absolute;
+    width: 80%;
+    height: 110px;
+    background-color: #d6131c;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  .certified-img:nth-of-type(1) {
+    width: 60px;
+  }
+  .certified-img:nth-of-type(2) {
+    width: 50px;
+  }
+  .certified-img:nth-of-type(3) {
+    width: 60px;
+  }
+}

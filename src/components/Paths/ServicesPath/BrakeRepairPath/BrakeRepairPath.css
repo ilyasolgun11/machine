@@ -1,0 +1,15 @@
+.brake-repair-header-path-style {
+  font-size: 6rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .brake-repair-header-path-style {
+    font-size: 3.6rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .brake-repair-header-path-style {
+    font-size: 2.7rem;
+  }
+}

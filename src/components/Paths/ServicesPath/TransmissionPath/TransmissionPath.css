@@ -1,0 +1,15 @@
+.transmission-header-path-style {
+  font-size: 5.4rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .transmission-header-path-style {
+    font-size: 3.6rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .transmission-header-path-style {
+    font-size: 2.7rem;
+  }
+}
